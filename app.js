@@ -43010,6 +43010,7 @@
             const t = (0,
             r.useCallback)((t=>{
                 console.log('sai yaha par 720 onclick function')
+            console.log(e)
                 if (!e.disabled)
                     return e.onClick ? e.onClick(t) : void 0;
                 t.preventDefault()
